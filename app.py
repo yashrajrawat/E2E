@@ -7,7 +7,6 @@ if __name__=='__main__':
     logging.info('Testing Custom Exception')
         
     try:
-        #data_config = DataIngestionConfig()
         data_ingestion = DataIngestion()
         data_ingestion.initiate_data_ingestion()
     except Exception as e:
