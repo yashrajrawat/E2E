@@ -28,7 +28,7 @@ def read_sql_data():
         )
         logging.info("Connection Established",mydb)
         df=pd.read_sql_query('Select * from diabetes',mydb)
-        logging.info("Fetching Successful",mydb)
+        logging.info("Successfully Fetched",mydb)
         return df
     
     except Exception as ex:
